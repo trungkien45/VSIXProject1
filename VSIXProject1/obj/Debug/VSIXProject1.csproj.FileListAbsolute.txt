@@ -25,3 +25,6 @@ C:\Users\Admin\source\repos\VSIXProject1\VSIXProject1\obj\Debug\createTemplateMa
 C:\Users\Admin\source\repos\VSIXProject1\VSIXProject1\bin\Debug\envdte.dll
 C:\Users\Admin\source\repos\VSIXProject1\VSIXProject1\bin\Debug\Microsoft.VisualStudio.Interop.dll
 C:\Users\Admin\source\repos\VSIXProject1\VSIXProject1\obj\Debug\VSIXProj.08EA0DCD.Up2Date
+C:\Users\Admin\source\repos\VSIXProject1\VSIXProject1\obj\Debug\VSCT.read.1.tlog
+C:\Users\Admin\source\repos\VSIXProject1\VSIXProject1\obj\Debug\VSCT.write.1.tlog
+C:\Users\Admin\source\repos\VSIXProject1\VSIXProject1\obj\Debug\_EmptyResource.resources.original

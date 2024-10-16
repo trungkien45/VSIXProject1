@@ -3,32 +3,43 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\VSIXProject1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE9256F4-9637-4416-8BF6-F76147D60B1C}|VSIXProject1\\VSIXProject1.csproj|c:\\users\\admin\\source\\repos\\vsixproject1\\vsixproject1\\toolwindow1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE9256F4-9637-4416-8BF6-F76147D60B1C}|VSIXProject1\\VSIXProject1.csproj|solutionrelative:vsixproject1\\toolwindow1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE9256F4-9637-4416-8BF6-F76147D60B1C}|VSIXProject1\\VSIXProject1.csproj|c:\\users\\admin\\source\\repos\\vsixproject1\\vsixproject1\\vsixproject1package.vsct||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BE9256F4-9637-4416-8BF6-F76147D60B1C}|VSIXProject1\\VSIXProject1.csproj|solutionrelative:vsixproject1\\vsixproject1package.vsct||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE9256F4-9637-4416-8BF6-F76147D60B1C}|VSIXProject1\\VSIXProject1.csproj|C:\\Users\\Admin\\source\\repos\\VSIXProject1\\vsixproject1\\toolwindow1control.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{BE9256F4-9637-4416-8BF6-F76147D60B1C}|VSIXProject1\\VSIXProject1.csproj|solutionrelative:vsixproject1\\toolwindow1control.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE9256F4-9637-4416-8BF6-F76147D60B1C}|VSIXProject1\\VSIXProject1.csproj|C:\\Users\\Admin\\source\\repos\\VSIXProject1\\vsixproject1\\toolwindow1command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE9256F4-9637-4416-8BF6-F76147D60B1C}|VSIXProject1\\VSIXProject1.csproj|solutionrelative:vsixproject1\\toolwindow1command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE9256F4-9637-4416-8BF6-F76147D60B1C}|VSIXProject1\\VSIXProject1.csproj|C:\\Users\\Admin\\source\\repos\\VSIXProject1\\vsixproject1\\source.extension.vsixmanifest||{2868F8ED-DE25-439D-9F59-AD52458E9328}",
-      "RelativeMoniker": "D:0:0:{BE9256F4-9637-4416-8BF6-F76147D60B1C}|VSIXProject1\\VSIXProject1.csproj|solutionrelative:vsixproject1\\source.extension.vsixmanifest||{2868F8ED-DE25-439D-9F59-AD52458E9328}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE9256F4-9637-4416-8BF6-F76147D60B1C}|VSIXProject1\\VSIXProject1.csproj|C:\\Users\\Admin\\source\\repos\\VSIXProject1\\vsixproject1\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE9256F4-9637-4416-8BF6-F76147D60B1C}|VSIXProject1\\VSIXProject1.csproj|solutionrelative:vsixproject1\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\AppData\\Local\\Temp\\.vsdbgsrc\\2a6ac60fd00efb558b79afd118b6af3ab0859d2743f1fff670a4f2dfceaa3c4c\\ExecutionContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE9256F4-9637-4416-8BF6-F76147D60B1C}|VSIXProject1\\VSIXProject1.csproj|C:\\Users\\Admin\\source\\repos\\VSIXProject1\\vsixproject1\\toolwindow1control.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE9256F4-9637-4416-8BF6-F76147D60B1C}|VSIXProject1\\VSIXProject1.csproj|solutionrelative:vsixproject1\\toolwindow1control.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE9256F4-9637-4416-8BF6-F76147D60B1C}|VSIXProject1\\VSIXProject1.csproj|C:\\Users\\Admin\\source\\repos\\VSIXProject1\\vsixproject1\\properties\\sourcefileextractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE9256F4-9637-4416-8BF6-F76147D60B1C}|VSIXProject1\\VSIXProject1.csproj|solutionrelative:vsixproject1\\properties\\sourcefileextractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE9256F4-9637-4416-8BF6-F76147D60B1C}|VSIXProject1\\VSIXProject1.csproj|C:\\Users\\Admin\\source\\repos\\VSIXProject1\\vsixproject1\\toolwindow1command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE9256F4-9637-4416-8BF6-F76147D60B1C}|VSIXProject1\\VSIXProject1.csproj|solutionrelative:vsixproject1\\toolwindow1command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9256F4-9637-4416-8BF6-F76147D60B1C}|VSIXProject1\\VSIXProject1.csproj|C:\\Users\\Admin\\source\\repos\\VSIXProject1\\vsixproject1\\toolwindow1control.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BE9256F4-9637-4416-8BF6-F76147D60B1C}|VSIXProject1\\VSIXProject1.csproj|solutionrelative:vsixproject1\\toolwindow1control.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9256F4-9637-4416-8BF6-F76147D60B1C}|VSIXProject1\\VSIXProject1.csproj|C:\\Users\\Admin\\source\\repos\\VSIXProject1\\vsixproject1\\toolwindow1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE9256F4-9637-4416-8BF6-F76147D60B1C}|VSIXProject1\\VSIXProject1.csproj|solutionrelative:vsixproject1\\toolwindow1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9256F4-9637-4416-8BF6-F76147D60B1C}|VSIXProject1\\VSIXProject1.csproj|C:\\Users\\Admin\\source\\repos\\VSIXProject1\\vsixproject1\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE9256F4-9637-4416-8BF6-F76147D60B1C}|VSIXProject1\\VSIXProject1.csproj|solutionrelative:vsixproject1\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9256F4-9637-4416-8BF6-F76147D60B1C}|VSIXProject1\\VSIXProject1.csproj|C:\\Users\\Admin\\source\\repos\\VSIXProject1\\vsixproject1\\sourcefileextractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE9256F4-9637-4416-8BF6-F76147D60B1C}|VSIXProject1\\VSIXProject1.csproj|solutionrelative:vsixproject1\\sourcefileextractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9256F4-9637-4416-8BF6-F76147D60B1C}|VSIXProject1\\VSIXProject1.csproj|C:\\Users\\Admin\\source\\repos\\VSIXProject1\\vsixproject1\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE9256F4-9637-4416-8BF6-F76147D60B1C}|VSIXProject1\\VSIXProject1.csproj|solutionrelative:vsixproject1\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9256F4-9637-4416-8BF6-F76147D60B1C}|VSIXProject1\\VSIXProject1.csproj|C:\\Users\\Admin\\source\\repos\\VSIXProject1\\vsixproject1\\source.extension.vsixmanifest||{2868F8ED-DE25-439D-9F59-AD52458E9328}",
+      "RelativeMoniker": "D:0:0:{BE9256F4-9637-4416-8BF6-F76147D60B1C}|VSIXProject1\\VSIXProject1.csproj|solutionrelative:vsixproject1\\source.extension.vsixmanifest||{2868F8ED-DE25-439D-9F59-AD52458E9328}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +49,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,42 +69,69 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "source.extension.vsixmanifest [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\VSIXProject1\\VSIXProject1\\source.extension.vsixmanifest",
-              "RelativeDocumentMoniker": "VSIXProject1\\source.extension.vsixmanifest",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\VSIXProject1\\VSIXProject1\\source.extension.vsixmanifest [Design]",
-              "RelativeToolTip": "VSIXProject1\\source.extension.vsixmanifest [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
-              "WhenOpened": "2024-10-15T21:29:30.394Z"
+              "DocumentIndex": 1,
+              "Title": "ExecutionContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\AppData\\Local\\Temp\\.vsdbgsrc\\2a6ac60fd00efb558b79afd118b6af3ab0859d2743f1fff670a4f2dfceaa3c4c\\ExecutionContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\2a6ac60fd00efb558b79afd118b6af3ab0859d2743f1fff670a4f2dfceaa3c4c\\ExecutionContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\AppData\\Local\\Temp\\.vsdbgsrc\\2a6ac60fd00efb558b79afd118b6af3ab0859d2743f1fff670a4f2dfceaa3c4c\\ExecutionContext.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\2a6ac60fd00efb558b79afd118b6af3ab0859d2743f1fff670a4f2dfceaa3c4c\\ExecutionContext.cs [Read Only]",
+              "ViewState": "AQIAAO8BAAAAAAAAAAAUwAICAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T07:20:03.717Z",
+              "EditorCaption": " [Read Only]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "VSIXProject1Package.vsct",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\VSIXProject1\\VSIXProject1\\VSIXProject1Package.vsct",
+              "RelativeDocumentMoniker": "VSIXProject1\\VSIXProject1Package.vsct",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\VSIXProject1\\VSIXProject1\\VSIXProject1Package.vsct",
+              "RelativeToolTip": "VSIXProject1\\VSIXProject1Package.vsct",
+              "ViewState": "AQIAABQAAAAAAAAAAAD4vzAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2024-10-16T07:16:22.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\VSIXProject1\\VSIXProject1\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "VSIXProject1\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\VSIXProject1\\VSIXProject1\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "VSIXProject1\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T07:04:06.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "SourceFileExtractor.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\VSIXProject1\\VSIXProject1\\Properties\\SourceFileExtractor.cs",
-              "RelativeDocumentMoniker": "VSIXProject1\\Properties\\SourceFileExtractor.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\VSIXProject1\\VSIXProject1\\Properties\\SourceFileExtractor.cs",
-              "RelativeToolTip": "VSIXProject1\\Properties\\SourceFileExtractor.cs",
-              "ViewState": "AQIAAFwAAAAAAAAAAADwv3wAAAABAAAA",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\VSIXProject1\\VSIXProject1\\SourceFileExtractor.cs",
+              "RelativeDocumentMoniker": "VSIXProject1\\SourceFileExtractor.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\VSIXProject1\\VSIXProject1\\SourceFileExtractor.cs",
+              "RelativeToolTip": "VSIXProject1\\SourceFileExtractor.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAADgvzYAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T20:17:29.641Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "ToolWindow1Control.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\VSIXProject1\\VSIXProject1\\ToolWindow1Control.xaml.cs",
               "RelativeDocumentMoniker": "VSIXProject1\\ToolWindow1Control.xaml.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\VSIXProject1\\VSIXProject1\\ToolWindow1Control.xaml.cs",
               "RelativeToolTip": "VSIXProject1\\ToolWindow1Control.xaml.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAUwEoAAAArAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBYAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T18:10:09.192Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\VSIXProject1\\VSIXProject1\\Class1.cs",
               "RelativeDocumentMoniker": "VSIXProject1\\Class1.cs",
@@ -105,20 +143,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "ToolWindow1.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\VSIXProject1\\VSIXProject1\\ToolWindow1.cs",
               "RelativeDocumentMoniker": "VSIXProject1\\ToolWindow1.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\VSIXProject1\\VSIXProject1\\ToolWindow1.cs",
               "RelativeToolTip": "VSIXProject1\\ToolWindow1.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACAAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T18:02:32.394Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T18:02:32.394Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ToolWindow1Control.xaml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\VSIXProject1\\VSIXProject1\\ToolWindow1Control.xaml",
               "RelativeDocumentMoniker": "VSIXProject1\\ToolWindow1Control.xaml",
@@ -129,15 +166,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ToolWindow1Command.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\VSIXProject1\\VSIXProject1\\ToolWindow1Command.cs",
               "RelativeDocumentMoniker": "VSIXProject1\\ToolWindow1Command.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\VSIXProject1\\VSIXProject1\\ToolWindow1Command.cs",
               "RelativeToolTip": "VSIXProject1\\ToolWindow1Command.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAwwFEAAAA6AAAA",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAgwFoAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T17:48:41.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "source.extension.vsixmanifest [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\VSIXProject1\\VSIXProject1\\source.extension.vsixmanifest",
+              "RelativeDocumentMoniker": "VSIXProject1\\source.extension.vsixmanifest",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\VSIXProject1\\VSIXProject1\\source.extension.vsixmanifest [Design]",
+              "RelativeToolTip": "VSIXProject1\\source.extension.vsixmanifest [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2024-10-15T21:29:30.394Z"
             }
           ]
         }

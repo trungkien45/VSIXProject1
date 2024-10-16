@@ -13,11 +13,8 @@ C:\Users\Admin\source\repos\VSIXProject1\VSIXProject1\obj\Release\VSIXProject1.g
 C:\Users\Admin\source\repos\VSIXProject1\VSIXProject1\obj\Release\_EmptyResource.resources
 C:\Users\Admin\source\repos\VSIXProject1\VSIXProject1\obj\Release\VSIXProject1.csproj.GenerateResource.cache
 C:\Users\Admin\source\repos\VSIXProject1\VSIXProject1\obj\Release\VSIXProject1Package.cto
-C:\Users\Admin\source\repos\VSIXProject1\VSIXProject1\obj\Release\VSCT.read.1.tlog
-C:\Users\Admin\source\repos\VSIXProject1\VSIXProject1\obj\Release\VSCT.write.1.tlog
 C:\Users\Admin\source\repos\VSIXProject1\VSIXProject1\obj\Release\resources.json
 C:\Users\Admin\source\repos\VSIXProject1\VSIXProject1\obj\Release\ctoFiles.json
-C:\Users\Admin\source\repos\VSIXProject1\VSIXProject1\obj\Release\_EmptyResource.resources.original
 C:\Users\Admin\source\repos\VSIXProject1\VSIXProject1\obj\Release\mergeCto.cache
 C:\Users\Admin\source\repos\VSIXProject1\VSIXProject1\obj\Release\VSIXProject1.csproj.CoreCompileInputs.cache
 C:\Users\Admin\source\repos\VSIXProject1\VSIXProject1\obj\Release\VSIXProj.08EA0DCD.Up2Date
@@ -28,3 +25,6 @@ C:\Users\Admin\source\repos\VSIXProject1\VSIXProject1\obj\Release\VSIXProject1.l
 C:\Users\Admin\source\repos\VSIXProject1\VSIXProject1\obj\Release\extension.vsixmanifest
 C:\Users\Admin\source\repos\VSIXProject1\VSIXProject1\obj\Release\files.json
 C:\Users\Admin\source\repos\VSIXProject1\VSIXProject1\obj\Release\createTemplateManifests.cache
+C:\Users\Admin\source\repos\VSIXProject1\VSIXProject1\obj\Release\VSCT.read.1.tlog
+C:\Users\Admin\source\repos\VSIXProject1\VSIXProject1\obj\Release\VSCT.write.1.tlog
+C:\Users\Admin\source\repos\VSIXProject1\VSIXProject1\obj\Release\_EmptyResource.resources.original
