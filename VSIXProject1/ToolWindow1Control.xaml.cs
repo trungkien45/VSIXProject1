@@ -22,6 +22,7 @@ namespace VSIXProject1
         /// </summary>
         public ToolWindow1Control()
         {
+            Microsoft.VisualStudio.Shell.ThreadHelper.ThrowIfNotOnUIThread();
             dte = Package.GetGlobalService(typeof(DTE)) as DTE2;
             this.InitializeComponent();
             this.timer = new Timer();
@@ -32,22 +33,24 @@ namespace VSIXProject1
         private void timer_Elapsed(object sender, ElapsedEventArgs e)
         {
 
-            IVsSolution solution = (IVsSolution)Package.GetGlobalService(typeof(IVsSolution));
-            if (solution != null)
+            ThreadHelper.JoinableTaskFactory.Run(async delegate
             {
-                solution.GetSolutionInfo(out string solutionDirectory, out string solutionName, out string solutionDirectory2);
-                var solutionPath = solutionDirectory + System.IO.Path.GetFileNameWithoutExtension(solutionName);
-
-                if (!string.IsNullOrEmpty(solutionPath) && dte != null)
+                await ThreadHelper.JoinableTaskFactory.SwitchToMainThreadAsync();
+                IVsSolution solution = (IVsSolution)Package.GetGlobalService(typeof(IVsSolution));
+                if (solution != null)
                 {
-                    var extractor = new SourceFileExtractor(dte);
-                    var sourceFiles = extractor.GetAllSourceFiles();
-                    this.Dispatcher.Invoke(() =>
+                    solution.GetSolutionInfo(out string solutionDirectory, out string solutionName, out string solutionDirectory2);
+                    var solutionPath = solutionDirectory + System.IO.Path.GetFileNameWithoutExtension(solutionName);
+
+                    if (!string.IsNullOrEmpty(solutionPath) && dte != null)
                     {
+                        var extractor = new SourceFileExtractor(dte);
+                        var sourceFiles = extractor.GetAllSourceFiles();
+
                         dataGrid1.ItemsSource = sourceFiles;
-                    });
+                    }
                 }
-            }
+            });
         }
 
         private void MyMouseLeftButtonDownHandler(object sender, MouseButtonEventArgs e)
