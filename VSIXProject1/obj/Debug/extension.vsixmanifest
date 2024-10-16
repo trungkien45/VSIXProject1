@@ -1,8 +1,8 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
   <Metadata>
-    <Identity Id="VSIXProject1.8890d0e9-06e5-4976-b433-dee8171b1bc9" Version="1.0" Language="en-US" Publisher="Nguyen Trung Kien" />
-    <DisplayName>VSIXProject1</DisplayName>
-    <Description>Empty VSIX Project.</Description>
+    <Identity Id="VSIXProject1.8890d0e9-06e5-4976-b433-dee8171b1bc9" Version="1.0" Language="en-US" Publisher="trungkien45" />
+    <DisplayName>NotImplementedException List</DisplayName>
+    <Description xml:space="preserve">Empty VSIX Project.</Description>
   </Metadata>
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
