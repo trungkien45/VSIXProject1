@@ -11,29 +11,57 @@
              Name="MyToolWindow" Loaded="MyToolWindow_Loaded">
     <Grid>
         <StackPanel Orientation="Vertical">
-            <DataGrid AutoGenerateColumns="False" MinColumnWidth="40" x:Name="dataGrid1" CanUserAddRows="False">
+            <DataGrid AutoGenerateColumns="False" MinColumnWidth="40" x:Name="dataGrid1" 
+                      CanUserAddRows="False" RowHeaderWidth="0" CanUserSortColumns="True"
+                      HeadersVisibility="Column" 
+                      Background="{DynamicResource {x:Static vsshell:VsBrushes.WindowKey}}">
+                
                 <DataGrid.Columns>
                     <DataGridTextColumn Header="Project" IsReadOnly="True" Binding="{Binding Path=Project}" Width="150">
+                        <DataGridTextColumn.HeaderStyle>
+                            <Style  TargetType="DataGridColumnHeader">
+                                <Setter Property="Background" Value="{DynamicResource {x:Static vsshell:VsBrushes.WindowKey}}" />
+                                <Setter Property="Foreground" Value="{DynamicResource {x:Static vsshell:VsBrushes.WindowTextKey}}" />
+                            </Style>
+                        </DataGridTextColumn.HeaderStyle>
                         <DataGridTextColumn.CellStyle>
                             <Style TargetType="DataGridCell">
+                                <Setter Property="Background" Value="{DynamicResource {x:Static vsshell:VsBrushes.WindowKey}}" />
+                                <Setter Property="Foreground" Value="{DynamicResource {x:Static vsshell:VsBrushes.WindowTextKey}}"/>
                                 <EventSetter Event="PreviewMouseLeftButtonDown" Handler="MyMouseLeftButtonDownHandler" />
                                 
                             </Style>
                         </DataGridTextColumn.CellStyle>
                     </DataGridTextColumn>
                     <DataGridTextColumn Header="File" IsReadOnly="True" Binding="{Binding Path=File}" Width="230">
+                        <DataGridTextColumn.HeaderStyle>
+                            <Style  TargetType="DataGridColumnHeader">
+                                <Setter Property="Background" Value="{DynamicResource {x:Static vsshell:VsBrushes.WindowKey}}" />
+                                <Setter Property="Foreground" Value="{DynamicResource {x:Static vsshell:VsBrushes.WindowTextKey}}" />
+                            </Style>
+                        </DataGridTextColumn.HeaderStyle>
+
                         <DataGridTextColumn.CellStyle>
                             <Style TargetType="DataGridCell">
                                 <EventSetter Event="PreviewMouseLeftButtonDown" Handler="MyMouseLeftButtonDownHandler" />
-                                
+                                <Setter Property="Background" Value="{DynamicResource {x:Static vsshell:VsBrushes.WindowKey}}" />
+                                <Setter Property="Foreground" Value="{DynamicResource {x:Static vsshell:VsBrushes.WindowTextKey}}" />
                             </Style>
                         </DataGridTextColumn.CellStyle>
                     </DataGridTextColumn>
-                    <DataGridTextColumn Header="Line" IsReadOnly="True" Binding="{Binding Path=Line}" Width="40">
+                    <DataGridTextColumn Header="Line" IsReadOnly="True" Binding="{Binding Path=Line}" Width="*">
+                        <DataGridTextColumn.HeaderStyle>
+                            <Style  TargetType="DataGridColumnHeader">
+                                <Setter Property="Background" Value="{DynamicResource {x:Static vsshell:VsBrushes.WindowKey}}" />
+                                <Setter Property="Foreground" Value="{DynamicResource {x:Static vsshell:VsBrushes.WindowTextKey}}" />
+                            </Style>
+                        </DataGridTextColumn.HeaderStyle>
+                        
                         <DataGridTextColumn.CellStyle>
                             <Style TargetType="DataGridCell">
                                 <EventSetter Event="PreviewMouseLeftButtonDown" Handler="MyMouseLeftButtonDownHandler" />
-                                
+                                <Setter Property="Background" Value="{DynamicResource {x:Static vsshell:VsBrushes.WindowKey}}" />
+                                <Setter Property="Foreground" Value="{DynamicResource {x:Static vsshell:VsBrushes.WindowTextKey}}" />
                             </Style>
                         </DataGridTextColumn.CellStyle>
                     </DataGridTextColumn>
