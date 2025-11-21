@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="VSIXProject1.8890d0e9-06e5-4976-b433-dee8171b1bcb" Version="1.1" Language="en-US" Publisher="trungkien45" />
+        <Identity Id="VSIXProject1.8890d0e9-06e5-4976-b433-dee8171b1bcb" Version="1.1.2" Language="en-US" Publisher="trungkien45" />
         <DisplayName>NotImplementedException List</DisplayName>
         <Description xml:space="preserve">NotImplementedException List.</Description>
     </Metadata>
