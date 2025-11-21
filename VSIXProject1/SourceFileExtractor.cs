@@ -1,8 +1,14 @@
 ﻿using EnvDTE;
 using EnvDTE80;
+using Microsoft.CodeAnalysis;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
+using Microsoft.VisualStudio.Shell;
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Text.RegularExpressions;
+using System.Threading.Tasks;
 
 namespace VSIXProject1
 {
@@ -33,11 +39,17 @@ namespace VSIXProject1
             return files;
         }
 
+        internal IEnumerable<Class1> GetAllSourceFiles(Project project)
+        {
+            return GetFilesInProject(project);
+        }
+
         // Lấy file từ dự án và tạo các đối tượng Class1
         private IEnumerable<Class1> GetFilesInProject(Project project)
         {
             List<Class1> files = new List<Class1>();
-
+            if (project.ProjectItems == null)
+                return files;
             foreach (ProjectItem item in project.ProjectItems)
             {
                 files.AddRange(GetFilesInProjectItem(item, project.Name));
@@ -71,7 +83,7 @@ namespace VSIXProject1
         }
 
         // Tìm các dòng chứa "throw new NotImplementedException()" và bỏ qua các comment
-        private IEnumerable<Class1> GetNotImplementedLines(string filePath, string projectName)
+        public IEnumerable<Class1> GetNotImplementedLines(string filePath, string projectName)
         {
             List<Class1> notImplementedFiles = new List<Class1>();
 
@@ -120,6 +132,32 @@ namespace VSIXProject1
                 return true;
             }
             return false;
+        }
+
+        internal List<Class1> GetNotImplementedLines(string filePath, string projectName, string newContent)
+        {
+            List<Class1> notImplementedFiles = new List<Class1>();
+
+            // Đọc tệp theo từng dòng và tìm "throw new NotImplementedException()"
+            string[] lines = newContent.Split(new[] { "\r\n", "\n", "\r" }, StringSplitOptions.None);
+            for (int i = 0; i < lines.Length; i++)
+            {
+                string trimmedLine = lines[i].Trim();
+
+                // Kiểm tra nếu dòng chứa throw new NotImplementedException() và không phải comment
+                if (IsValidCodeLine(trimmedLine, "throw new NotImplementedException()"))
+                {
+                    notImplementedFiles.Add(new Class1
+                    {
+                        Project = projectName,
+                        FilePath = filePath,
+                        File = Path.GetFileName(filePath),
+                        Line = i + 1 // Lưu số dòng (bắt đầu từ 1)
+                    });
+                }
+            }
+
+            return notImplementedFiles;
         }
     }
 }

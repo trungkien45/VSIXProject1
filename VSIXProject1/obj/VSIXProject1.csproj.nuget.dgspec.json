@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[17.11.40262, )"
             },
+            "Microsoft.CodeAnalysis.CSharp": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Microsoft.VSSDK.BuildTools": {
               "target": "Package",
               "version": "[17.10.2186, )"
