@@ -1,17 +1,17 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
   <Metadata>
-    <Identity Id="VSIXProject1.8890d0e9-06e5-4976-b433-dee8171b1bcb" Version="1.0" Language="en-US" Publisher="trungkien45" />
+    <Identity Id="VSIXProject1.8890d0e9-06e5-4976-b433-dee8171b1bcb" Version="1.1" Language="en-US" Publisher="trungkien45" />
     <DisplayName>NotImplementedException List</DisplayName>
     <Description xml:space="preserve">NotImplementedException List.</Description>
   </Metadata>
   <Installation>
-    <InstallationTarget Id="Microsoft.VisualStudio.Enterprise" Version="[17.0, 18.0)">
+    <InstallationTarget Id="Microsoft.VisualStudio.Enterprise" Version="[17.0, 18.0]">
       <ProductArchitecture>amd64</ProductArchitecture>
     </InstallationTarget>
-    <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Pro">
+    <InstallationTarget Version="[17.0,18.0]" Id="Microsoft.VisualStudio.Pro">
       <ProductArchitecture>amd64</ProductArchitecture>
     </InstallationTarget>
-    <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Community">
+    <InstallationTarget Version="[17.0,18.0]" Id="Microsoft.VisualStudio.Community">
       <ProductArchitecture>amd64</ProductArchitecture>
     </InstallationTarget>
   </Installation>

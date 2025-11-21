@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2ifJPouTI0c=",
+  "dgSpecHash": "PeC/lKVLJMA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\VSIXProject1\\VSIXProject1\\VSIXProject1.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\project\\VSIXProject1\\VSIXProject1\\VSIXProject1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\envdte\\17.11.40262\\envdte.17.11.40262.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\envdte100\\17.0.32112.339\\envdte100.17.0.32112.339.nupkg.sha512",
@@ -137,8 +137,10 @@
     {
       "code": "NU1603",
       "level": "Warning",
+      "message": "VSIXProject1 depends on Microsoft.VSSDK.BuildTools (>= 17.10.2186) but Microsoft.VSSDK.BuildTools 17.10.2186 was not found. Microsoft.VSSDK.BuildTools 17.11.414 was resolved instead.",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\project\\VSIXProject1\\VSIXProject1\\VSIXProject1.csproj",
       "warningLevel": 1,
-      "message": "VSIXProject1 depends on Microsoft.VSSDK.BuildTools (>= 17.10.2186) but Microsoft.VSSDK.BuildTools 17.10.2186 was not found. An approximate best match of Microsoft.VSSDK.BuildTools 17.11.414 was resolved.",
+      "filePath": "C:\\Users\\Admin\\Desktop\\project\\VSIXProject1\\VSIXProject1\\VSIXProject1.csproj",
       "libraryId": "Microsoft.VSSDK.BuildTools",
       "targetGraphs": [
         ".NETFramework,Version=v4.7.2",
